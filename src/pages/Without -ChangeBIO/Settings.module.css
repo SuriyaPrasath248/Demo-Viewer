@@ -1,0 +1,237 @@
+.screenContainer {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 36px;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header {
+    border-bottom: 3px solid #b5b5b5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 56px;
+  }
+  
+  .headerContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .backButton {
+    transform: rotate(180deg);
+    border-radius: 4px;
+    background-color: #6e85f2;
+    min-height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #5b71e2;
+  }
+  
+  .backButton:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
+  
+  .backIcon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .headerTitle {
+    color: #323335;
+    font: 600 24px/1 Aspekta, sans-serif;
+    margin: 0;
+  }
+  
+  .settingsButton {
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border: 2px solid #5f6164;
+    background: transparent;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+  }
+  
+  .settingsButton:hover {
+    border-color: #323335;
+  }
+  
+  .settingsButton:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
+  
+  .settingsIcon {
+    background-color: #5f6164;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 1573px;
+    margin: 41px 0 0 56px;
+    font-family: Aspekta, sans-serif;
+  }
+  
+  .titleSection,
+  .introSection {
+    margin-bottom: 30px;
+  }
+  
+  .introSection {
+    margin-top: 30px;
+  }
+  
+  .sectionTitle {
+    color: #323335;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .textField,
+  .textArea {
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #323335;
+    padding: 24px;
+    line-height: 32px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .textField {
+    max-width: 791px;
+  }
+  
+  .textField:focus,
+  .textArea:focus {
+    border-color: #6e85f2;
+    outline: none;
+  }
+  
+  .uploadGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin-top: 30px;
+  }
+  
+  .uploadContainer {
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    min-width: 240px;
+    min-height: 220px;
+    width: 646px;
+    padding: 36px 48px;
+  }
+  
+  .uploadContent {
+    color: #0b0d0e;
+    font-weight: 500;
+  }
+  
+  .uploadBox {
+    border-radius: 8px;
+    background-color: #fff;
+    margin-top: 16px;
+    width: 544px;
+    padding: 20px 65px;
+    border: 2px dashed #15202b;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .uploadBox:hover {
+    border-color: #6e85f2;
+    background-color: #f8f9fa;
+  }
+  
+  .uploadBox:focus {
+    outline: none;
+    border-color: #6e85f2;
+    box-shadow: 0 0 0 2px rgba(110, 133, 242, 0.2);
+  }
+  
+  .uploadButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+  }
+  
+  .uploadIcon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .uploadLimits {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 16px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 23px 20px;
+    }
+  
+    .mainContent {
+      max-width: 100%;
+      margin: 40px 20px 0;
+    }
+  
+    .textField,
+    .textArea {
+      max-width: 100%;
+    }
+  
+    .uploadContainer {
+      max-width: 100%;
+      padding: 24px;
+    }
+  
+    .uploadBox {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .uploadLimits {
+      max-width: 100%;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .backButton,
+    .settingsButton,
+    .textField,
+    .textArea,
+    .uploadBox {
+      transition: none;
+    }
+  }

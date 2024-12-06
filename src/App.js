@@ -13,6 +13,12 @@ import LoginForm from "./pages/With -ChangeBIO/LoginPageBackend"; // Corrected d
 import { PasswordLogin as LoginNoChangeB } from "./pages/Without -ChangeBIO/LoginBackend"; // Corrected named export
 import { UserHistory } from "./pages/With -ChangeBIO/UserHistory";
 import { UserHistoryB } from "./pages/Without -ChangeBIO/UserHistory";
+import { TranscriptViewB } from "./pages/Without -ChangeBIO/TranscriptViewBackend";
+import TranscriptViewBCB from "./pages/With -ChangeBIO/TranscriptViewBackend";
+import { OtherDetailsBB } from "./pages/Without -ChangeBIO/OtherDetails";
+import OtherDetailsBCB from "./pages/With -ChangeBIO/OtherDetails";
+import { SettingsLayoutBB } from "./pages/Without -ChangeBIO/SettingsLayout";
+import { SettingsPageBCB } from "./pages/With -ChangeBIO/SettingsPage";
 import LoginCF from "./pages/With -ChangeTHQ/login";
 import IntroductionCF from "./pages/With -ChangeTHQ/introduction";
 import InteractiveCF from "./pages/With -ChangeTHQ/interactivescreen";
@@ -52,9 +58,15 @@ const App = () => {
          {/* New Routes changes with Backend BIO*/}
          <Route path="/loginb-cb" element={<LoginForm />} />
          <Route path="/interactive-screenb-cb" element={<UserHistory />} />
+         <Route path="/view-transcriptb-cb" element={<TranscriptViewBCB/>} />
+         <Route path="/other-detailsb-cb" element={<OtherDetailsBCB/>} />
+         <Route path="/settingsb-cb" element={<SettingsPageBCB/>} />
          {/* New Routes Nochanges with Backend BIO*/}
          <Route path="/loginb-b" element={<LoginNoChangeB />} />
          <Route path="/interactive-screenb-b" element={<UserHistoryB />} />
+         <Route path="/view-transcriptb-b" element={<TranscriptViewB/>} />
+         <Route path="/other-detailsb-b" element={<OtherDetailsBB/>} />
+         <Route path="/settingsb-b" element={<SettingsLayoutBB/>} />
          {/* New Routes changes with frontend THQ */}
         <Route path="/login-cf" element={<LoginCF />} />
         <Route path="/introduction-cf" element={<IntroductionCF />} />

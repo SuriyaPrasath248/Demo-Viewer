@@ -1,0 +1,139 @@
+.settingsScreen {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 36px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .header {
+    border-bottom: 3px solid rgba(181, 181, 181, 1);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 0 23px 56px;
+  }
+  
+  .headerContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .backButton {
+    transform: rotate(180deg);
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .backIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 24px;
+  }
+  
+  .headerTitle {
+    color: rgba(50, 51, 53, 1);
+    font: 600 24px/1 Aspekta, sans-serif;
+    margin: 0;
+  }
+  
+  .settingsIcon {
+    border-radius: 8px;
+    display: flex;
+    width: 50px;
+    padding: 12px;
+    border: 2px solid rgba(95, 97, 100, 1);
+    margin-right: 56px;
+  }
+  
+  .iconInner {
+    background-color: rgba(95, 97, 100, 1);
+    border-color: #fff;
+    min-height: 26px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .mainContent {
+    display: flex;
+    width: 100%;
+    max-width: 1573px;
+    flex-direction: column;
+    font-family: Aspekta, sans-serif;
+    margin: 41px 0 0 56px;
+  }
+  
+  .textSection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .titleSection {
+    display: flex;
+    width: 791px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .sectionTitle {
+    color: rgba(50, 51, 53, 1);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .titleContent, .introContent {
+    border-radius: 8px;
+    border: 1px solid var(--Neutral-300, #d1d5db);
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: var(--d-9-d-9-d-9, #323335);
+    font-weight: 400;
+    line-height: 32px;
+    padding: 24px 16px;
+  }
+  
+  .introSection {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .uploadSections {
+    margin-top: 30px;
+  }
+  
+  .uploadGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding-left: 20px;
+    }
+    
+    .mainContent {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    
+    .titleContent,
+    .introContent {
+      max-width: 100%;
+    }
+  }

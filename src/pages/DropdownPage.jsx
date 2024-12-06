@@ -109,11 +109,11 @@ const DropdownPage = () => {
 
 
   const navigateToSettingScreenBackend = (section, option) => {
-    if (section === "With Ani's changes builder.io" && option === "Introduction Page") {
-        navigate("/introduction");
+    if (section === "With Ani's changes builder.io" && option === "Settings") {
+        navigate("/settingsb-cb");
     } 
-    else if (section === "Without Ani's changes builder.io" &&option === "Introduction Page") {
-      navigate("/introduction1");
+    else if (section === "Without Ani's changes builder.io" &&option === "Settings") {
+      navigate("/settingsb-b");
     }
     else if (section === "With Ani's changes TeleportHQ" &&option === "Settings") {
         navigate("/setting-cb");
@@ -124,11 +124,11 @@ const DropdownPage = () => {
   };
 
   const navigateToViewTransctiptScreenBackend = (section, option) => {
-    if (section === "With Ani's changes builder.io" && option === "Introduction Page") {
-        navigate("/introduction");
+    if (section === "With Ani's changes builder.io" && option === "View Transcript") {
+        navigate("/view-transcriptb-cb");
     } 
-    else if (section === "Without Ani's changes builder.io" &&option === "Introduction Page") {
-      navigate("/introduction1");
+    else if (section === "Without Ani's changes builder.io" &&option === "View Transcript") {
+      navigate("/view-transcriptb-b");
     }
     else if (section === "With Ani's changes TeleportHQ" &&option === "View Transcript") {
         navigate("/view-transcript-cb");
@@ -153,11 +153,11 @@ const DropdownPage = () => {
   };
 
   const navigateToOtherDetailsBackend = (section, option) => {
-    if (section === "With Ani's changes builder.io" && option === "Introduction Page") {
-        navigate("/introduction");
+    if (section === "With Ani's changes builder.io" && option === "Other Details") {
+        navigate("/other-detailsb-cb");
     } 
-    else if (section === "Without Ani's changes builder.io" &&option === "Introduction Page") {
-      navigate("/introduction1");
+    else if (section === "Without Ani's changes builder.io" &&option === "Other Details") {
+      navigate("/other-detailsb-b");
     }
     else if (section === "With Ani's changes TeleportHQ" &&option === "Other Details") {
         navigate("/other-details-cb");

@@ -1,0 +1,126 @@
+.header {
+    border-color: rgba(216, 216, 216, 1);
+    border-bottom-width: 2px;
+    display: flex;
+    min-height: 96px;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    padding: 20px 42px 20px 55px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 40px 1077px;
+    justify-content: start;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  .userInfo {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 16px;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 482px;
+    margin: auto 0;
+  }
+  
+  .backButton {
+    transform: rotate(3.1415925661670165Rad);
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    align-self: stretch;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+    padding: 0 13px;
+  }
+  
+  .backIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .userDetails {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 12px;
+    color: rgba(50, 51, 53, 1);
+    justify-content: start;
+    margin: auto 0;
+    font: 500 20px/1 Aspekta, sans-serif;
+  }
+  
+  .divider {
+    background-color: rgba(50, 51, 53, 1);
+    align-self: stretch;
+    width: 0px;
+    height: 50px;
+    margin: auto 0;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  
+  .actions {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    justify-content: start;
+    height: 100%;
+  }
+  
+  .actionLabel {
+    color: rgba(50, 51, 53, 1);
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .actionButton {
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    align-self: stretch;
+    gap: 8px;
+    overflow: hidden;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -0.18px;
+    line-height: 1;
+    margin: auto 0;
+    padding: 16px 12px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    
+    .container {
+      max-width: 100%;
+    }
+    
+    .userInfo {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,232 @@
+.transcriptContainer {
+  background: #fff;
+  display: flex;
+  padding: 0 0 224px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  border-bottom: 2px solid #d8d8d8;
+  display: flex;
+  min-height: 96px;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  padding: 20px 42px 20px 55px;
+}
+
+.headerContent {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.userInfo {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 482px;
+  margin: auto 0;
+}
+
+.backButton {
+  transform: rotate(180deg);
+  border-radius: 4px;
+  background-color: #6e85f2;
+  align-self: stretch;
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: auto 0;
+  padding: 0 13px;
+}
+
+.backIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.userDetails {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 12px;
+  color: #323335;
+  justify-content: flex-start;
+  margin: auto 0;
+  font: 500 20px/1 Aspekta, sans-serif;
+}
+
+.divider {
+  background-color: #323335;
+  align-self: stretch;
+  width: 0;
+  height: 50px;
+  margin: auto 0;
+  border: 1px solid #000;
+}
+
+.actionSection {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.actionLabel {
+  color: #323335;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.actionButton {
+  border-radius: 4px;
+  background-color: #6e85f2;
+  align-self: stretch;
+  gap: 8px;
+  overflow: hidden;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: -0.18px;
+  line-height: 1;
+  margin: auto 0;
+  padding: 16px 12px;
+}
+
+.transcriptBody {
+  background-color: #323335;
+  align-self: center;
+  display: flex;
+  margin-top: 104px;
+  width: 669px;
+  max-width: 100%;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  padding: 36px 24px;
+  font: 400 16px/26px Aspekta, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.messageContainer {
+  display: flex;
+  width: 100%;
+  max-width: 621px;
+  padding-bottom: 9px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.messageWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  border-radius: 50%;
+  align-self: stretch;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  margin: auto 0;
+  border: 2px solid #7d7d7d;
+}
+
+.messageText {
+  align-self: stretch;
+  width: 542px;
+  margin: auto 0;
+}
+
+.responseContainer {
+  z-index: 10;
+  display: flex;
+  margin-top: -40px;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 2px 0 7px;
+}
+
+.responseIcon {
+  aspect-ratio: 1.25;
+  object-fit: contain;
+  object-position: center;
+  width: 35px;
+}
+
+.responseText {
+  align-self: flex-end;
+  width: 490px;
+  border-radius: 4px;
+  background-color: #656565;
+  margin-top: 44px;
+  gap: 10px;
+  padding: 14px 16px;
+}
+
+@media (max-width: 991px) {
+  .transcriptContainer {
+    padding-bottom: 100px;
+  }
+
+  .header {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .headerContent {
+    max-width: 100%;
+  }
+
+  .userInfo {
+    max-width: 100%;
+  }
+
+  .transcriptBody {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .messageContainer {
+    max-width: 100%;
+  }
+
+  .messageWrapper {
+    margin-right: 10px;
+  }
+
+  .messageText {
+    max-width: 100%;
+  }
+
+  .responseText {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
