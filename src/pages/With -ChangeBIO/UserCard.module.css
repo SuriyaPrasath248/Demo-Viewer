@@ -1,0 +1,134 @@
+.userCard {
+    border-bottom: 2px solid rgba(181, 181, 181, 1);
+    width: 100%;
+    padding: 28px 58px;
+  }
+  
+  .cardContent {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .userDetails {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .userName {
+    color: rgba(50, 51, 53, 1);
+    font: 400 22px/1 Aspekta, sans-serif;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 55px;
+    border: 1px solid rgba(66, 66, 66, 1);
+  }
+  
+  .credits {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font: 500 22px/1 Aspekta, sans-serif;
+  }
+  
+  .creditIcon {
+    transform: rotate(180deg);
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(110, 133, 242, 1);
+  }
+  
+  .ratingSection {
+    width: 60%;
+  }
+  
+  .ratingContainer {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+  }
+  
+  .ratingText {
+    color: rgba(50, 51, 53, 1);
+    font: 500 22px/1 Aspekta, sans-serif;
+  }
+  
+  .starRating {
+    display: flex;
+    gap: 22px;
+  }
+  
+  .starIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 30px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    justify-content: flex-end;
+  }
+  
+  .actionLabel {
+    color: rgba(50, 51, 53, 1);
+    font-size: 16px;
+    letter-spacing: -0.16px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .viewTranscript {
+    border-radius: 4px;
+    padding: 16px 30px;
+    border: 2px solid rgba(106, 106, 106, 1);
+    color: rgba(50, 51, 53, 1);
+    font-size: 16px;
+    letter-spacing: -0.16px;
+  }
+  
+  .viewJD {
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    padding: 16px 17px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .userCard {
+      padding: 0 20px;
+    }
+    
+    .cardContent {
+      flex-direction: column;
+      gap: 40px;
+    }
+    
+    .userInfo,
+    .ratingSection {
+      width: 100%;
+    }
+    
+    .viewTranscript,
+    .viewJD {
+      padding: 16px 20px;
+    }
+  }

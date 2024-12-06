@@ -1,0 +1,105 @@
+.login1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login1-login {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login1-frame1000002102 {
+  gap: 40px;
+  top: 135.5px;
+  left: 56px;
+  width: 822px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.login1-frame1000002100 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.login1-text10 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: 700;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login1-text11 {
+  color: rgba(50, 51, 53, 1);
+  width: 822px;
+  height: auto;
+  font-size: 20px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login1-frame1000002101 {
+  gap: 22px;
+  display: flex;
+  align-items: center;
+}
+.login1wf-button {
+  gap: 8px;
+  display: flex;
+  padding: 16px 24px;
+  overflow: hidden;
+  align-items: flex-end;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(110, 133, 242, 1);
+}
+.login1-text21 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login1-text22 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login1objects {
+  top: 239.37295532226562px;
+  left: 1237px;
+  width: 763px;
+  height: 765px;
+  position: absolute;
+}

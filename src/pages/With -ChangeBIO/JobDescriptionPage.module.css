@@ -1,0 +1,115 @@
+.container {
+    border-radius: 8px;
+    background: rgba(241, 241, 241, 1);
+    display: flex;
+    padding: 0 0 385px;
+    flex-direction: column;
+    margin-bottom: 3px;
+  }
+  
+  .header {
+    border-bottom: 2px solid rgba(171, 171, 171, 1);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px 598px;
+    font-weight: 600;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 24px 27px 24px 20px;
+  }
+  
+  .title {
+    color: rgba(50, 51, 53, 1);
+    align-self: stretch;
+    margin: auto 0;
+    font: 24px Aspekta, sans-serif;
+  }
+  
+  .actionButtons {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: start;
+    gap: 12px;
+    letter-spacing: -0.16px;
+    justify-content: start;
+    margin: auto 0;
+    font: 16px Inter, sans-serif;
+  }
+  
+  .shareButton {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    overflow: hidden;
+    color: rgba(50, 51, 53, 1);
+    white-space: nowrap;
+    justify-content: center;
+    padding: 16px 30px;
+    border: 2px solid rgba(106, 106, 106, 1);
+    cursor: pointer;
+  }
+  
+  .shareIcon {
+    aspect-ratio: 1.22;
+    object-fit: contain;
+    object-position: center;
+    width: 22px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .createButton {
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    gap: 8px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 29px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .description {
+    color: rgba(50, 51, 53, 1);
+    align-self: start;
+    margin: 33px 0 0 14px;
+    font: 500 20px/34px Aspekta, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      padding-bottom: 100px;
+    }
+    
+    .header {
+      max-width: 100%;
+      padding-right: 20px;
+    }
+    
+    .shareButton {
+      white-space: initial;
+      padding: 0 20px;
+    }
+    
+    .createButton {
+      padding: 0 20px;
+    }
+    
+    .description {
+      max-width: 100%;
+    }
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }

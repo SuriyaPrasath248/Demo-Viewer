@@ -1,0 +1,176 @@
+.userCard {
+    border-bottom: 2px solid rgba(181, 181, 181, 1);
+    width: 100%;
+    overflow: hidden;
+    padding: 28px 66px;
+  }
+  
+  .cardContent {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 40%;
+  }
+  
+  .userDetails {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .userName {
+    color: rgba(50, 51, 53, 1);
+    align-self: stretch;
+    margin: auto 0;
+    font: 400 22px/1 Aspekta, sans-serif;
+  }
+  
+  .divider {
+    align-self: stretch;
+    width: 1px;
+    height: 55px;
+    border: 1px solid rgba(66, 66, 66, 1);
+  }
+  
+  .creditsContainer {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: auto 0;
+  }
+  
+  .creditsLabel {
+    color: rgba(50, 51, 53, 1);
+    align-self: stretch;
+    margin: auto 0;
+    font: 500 22px/1 Aspekta, sans-serif;
+  }
+  
+  .ratingSection {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 60%;
+    margin-left: 20px;
+  }
+  
+  .ratingContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 39px;
+  }
+  
+  .ratingLabel {
+    color: rgba(50, 51, 53, 1);
+    align-self: stretch;
+    flex-grow: 1;
+    margin: auto 0;
+    font: 500 22px/1 Aspekta, sans-serif;
+  }
+  
+  .starRating {
+    align-self: stretch;
+    display: flex;
+    align-items: start;
+    gap: 22px;
+    justify-content: start;
+    margin: auto 0;
+  }
+  
+  .starIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+  }
+  
+  .actionButtons {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    justify-content: end;
+  }
+  
+  .actionLabel {
+    color: rgba(50, 51, 53, 1);
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .buttonGroup {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: start;
+    gap: 16px;
+    justify-content: start;
+    margin: auto 0;
+  }
+  
+  .transcriptButton {
+    width: 180px;
+    border-radius: 4px;
+    gap: 8px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(50, 51, 53, 1);
+    letter-spacing: -0.16px;
+    padding: 16px 30px;
+    border: 2px solid rgba(106, 106, 106, 1);
+  }
+  
+  .jdButton {
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    gap: 8px;
+    overflow: hidden;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -0.18px;
+    line-height: 1;
+    width: 158px;
+    padding: 16px 17px;
+  }
+  
+  @media (max-width: 991px) {
+    .userCard {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  
+    .cardContent {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  
+    .userInfo {
+      width: 100%;
+    }
+  
+    .ratingSection {
+      width: 100%;
+    }
+  
+    .transcriptButton,
+    .jdButton {
+      padding: 0 20px;
+    }
+  }

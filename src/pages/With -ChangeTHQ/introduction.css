@@ -1,0 +1,102 @@
+.introduction-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.introduction-introduction {
+  gap: 36px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 135px 56px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.introduction-frame1000002102 {
+  gap: 40px;
+  width: 886px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.introduction-frame1000002100 {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.introduction-text10 {
+  color: rgba(50, 51, 53, 1);
+  width: 882px;
+  height: auto;
+  font-size: 24px;
+  font-style: 700;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.introduction-text11 {
+  color: rgba(50, 51, 53, 1);
+  width: 882px;
+  height: auto;
+  font-size: 20px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.introduction-frame1000002101 {
+  gap: 22px;
+  display: flex;
+  align-items: center;
+}
+.introduction-wf-button {
+  gap: 8px;
+  display: flex;
+  padding: 16px 24px;
+  overflow: hidden;
+  align-items: flex-end;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(110, 133, 242, 1);
+}
+.introduction-text21 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.introduction-text22 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 160.0000023841858%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.introduction-objects {
+  width: 885px;
+  height: 808px;
+}

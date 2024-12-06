@@ -1,0 +1,98 @@
+.container {
+    margin-top: 69px;
+  }
+  
+  .title {
+    color: #1f2937;
+    font: 600 22px/2 Aspekta, sans-serif;
+  }
+  
+  .statsGrid {
+    display: flex;
+    min-height: 344px;
+    align-items: start;
+    gap: 40px 44px;
+    overflow: hidden;
+    font-family: Aspekta, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    margin: 40px 0 0 24px;
+    flex-wrap: wrap;
+  }
+  
+  .metricsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 206px;
+  }
+  
+  .metric {
+    border-radius: 8px;
+    background-color: #323335;
+    display: flex;
+    min-height: 80px;
+    width: 206px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+  }
+  
+  .metricTitle {
+    font-size: 20px;
+    line-height: 2;
+  }
+  
+  .metricValue {
+    font-size: 52px;
+    line-height: 2.2;
+    margin-top: 12px;
+  }
+  
+  .sharesMetric {
+    margin-top: 24px;
+    min-height: 114px;
+  }
+  
+  .userList {
+    border-radius: 8px;
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 35px;
+    width: 346px;
+  }
+  
+  .listHeader {
+    background-color: #6a6a6a;
+    border-bottom: 1px solid #323335;
+    min-height: 69px;
+    padding: 17px 16px;
+  }
+  
+  .listItem {
+    background-color: #323335;
+    border-bottom: 1px solid #a8a8a8;
+    min-height: 69px;
+    padding: 17px 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      margin-top: 40px;
+    }
+    
+    .metric {
+      padding: 0 20px;
+    }
+    
+    .metricValue {
+      font-size: 40px;
+    }
+  }

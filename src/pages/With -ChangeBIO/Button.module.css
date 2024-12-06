@@ -1,0 +1,31 @@
+.button {
+    border-radius: 5px;
+    width: 100%;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.22px;
+    line-height: 1;
+    padding: 20px 15px;
+  }
+  
+  .primary {
+    background-color: rgba(110, 133, 242, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .secondary {
+    margin-top: 17px;
+    font-size: 20px;
+    color: rgba(50, 51, 53, 1);
+    letter-spacing: -0.2px;
+    border: 2px solid rgba(110, 133, 242, 1);
+  }
+  
+  @media (max-width: 991px) {
+    .secondary {
+      padding: 20px;
+    }
+  }

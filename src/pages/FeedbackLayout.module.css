@@ -1,0 +1,115 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 121px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .header {
+    border-bottom: 2px solid #d8d8d8;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    padding: 20px 42px 20px 54px;
+  }
+  
+  .headerContent {
+    display: flex;
+    min-width: 240px;
+    align-items: start;
+    gap: 23px;
+  }
+  
+  .backButton {
+    transform: rotate(180deg);
+    border-radius: 4px;
+    background-color: #6e85f2;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 0 13px;
+  }
+  
+  .backIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .userInfo {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 16px;
+    color: #323335;
+    font: 500 20px/1 Aspekta, sans-serif;
+  }
+  
+  .divider {
+    background-color: #323335;
+    width: 1px;
+    height: 50px;
+    margin: auto 0;
+  }
+  
+  .actionButtons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    margin-left: auto;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+  }
+  
+  .viewTranscript {
+    border-radius: 4px;
+    border: 2px solid #6a6a6a;
+    padding: 16px 30px;
+    color: #323335;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+  }
+  
+  .viewFinal {
+    border-radius: 4px;
+    background-color: #6e85f2;
+    padding: 16px 24px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    line-height: 1;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      padding-bottom: 100px;
+    }
+    
+    .header {
+      padding: 0 20px;
+    }
+    
+    .viewTranscript,
+    .viewFinal {
+      padding: 0 20px;
+    }
+  }

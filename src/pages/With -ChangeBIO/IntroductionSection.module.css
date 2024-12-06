@@ -1,0 +1,125 @@
+.section {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    overflow: hidden;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 136px 56px;
+  }
+  
+  @media (max-width: 991px) {
+    .section {
+      padding: 100px 20px;
+    }
+  }
+  
+  .content {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: start;
+    gap: 40px;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 709px;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .content {
+      max-width: 100%;
+    }
+  }
+  
+  .textContent {
+    display: flex;
+    min-width: 240px;
+    flex-direction: column;
+    font-family: Aspekta, sans-serif;
+    color: rgba(50, 51, 53, 1);
+    justify-content: start;
+    flex-grow: 1;
+    width: 826px;
+  }
+  
+  @media (max-width: 991px) {
+    .textContent {
+      max-width: 100%;
+    }
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991px) {
+    .title {
+      max-width: 100%;
+    }
+  }
+  
+  .description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .description {
+      max-width: 100%;
+    }
+  }
+  
+  .actionContainer {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 22px;
+    justify-content: start;
+  }
+  
+  .proceedButton {
+    border-radius: 4px;
+    background-color: rgba(110, 133, 242, 1);
+    align-self: stretch;
+    gap: 8px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    letter-spacing: -0.18px;
+    margin: auto 0;
+    padding: 16px 24px;
+    font: 600 18px/1 Inter, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .proceedButton {
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  
+  .credits {
+    color: rgba(50, 51, 53, 1);
+    align-self: stretch;
+    margin: auto 0;
+    font: 500 20px/1.6 Aspekta, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .visualContent {
+    transform: rotate(2.7755575615628914E17Rad);
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    width: 708px;
+    height: 808px;
+    flex-grow: 1;
+    margin: auto 0;
+  }

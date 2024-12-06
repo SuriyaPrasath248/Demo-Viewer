@@ -1,0 +1,54 @@
+.userHistoryScreen {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    padding: 0 0 379px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .header {
+    border-bottom: 3px solid rgba(181, 181, 181, 1);
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 23px 57px;
+  }
+  
+  .title {
+    color: rgba(50, 51, 53, 1);
+    margin: auto 0;
+    font: 600 24px/1 Aspekta, sans-serif;
+  }
+  
+  .settingsButton {
+    border-radius: 8px;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 2px solid rgba(95, 97, 100, 1);
+  }
+  
+  .settingsIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 26px;
+  }
+  
+  .userList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 991px) {
+    .userHistoryScreen {
+      padding-bottom: 100px;
+    }
+    
+    .header {
+      padding: 0 20px;
+    }
+  }

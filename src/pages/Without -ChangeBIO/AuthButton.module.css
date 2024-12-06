@@ -1,0 +1,32 @@
+.authButton {
+    border-radius: 5px;
+    width: 100%;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 22px;
+    letter-spacing: -0.22px;
+    line-height: 1;
+    padding: 20px 15px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .primary {
+    background-color: rgba(110, 133, 242, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .secondary {
+    background-color: transparent;
+    color: rgba(50, 51, 53, 1);
+    border: 2px solid rgba(110, 133, 242, 1);
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    margin-top: 17px;
+  }
+  
+  @media (max-width: 991px) {
+    .secondary {
+      padding: 20px;
+    }
+  }

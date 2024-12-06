@@ -1,0 +1,196 @@
+.final-jd-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.final-jd-final-jd {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.final-jd-frame1000002067 {
+  gap: 10px;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  display: flex;
+  padding: 20px 54px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(215, 215, 215, 1);
+  border-style: solid;
+  border-width: 0 0 3px;
+  flex-direction: column;
+}
+.final-jd-frame1000002119 {
+  gap: 648px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-jd-frame1000002106 {
+  gap: 16px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.final-jd-wf-icon-button {
+  gap: 8px;
+  width: 49.999996185302734px;
+  height: 50.000003814697266px;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(110, 133, 242, 1);
+}
+.final-jd-icon-right {
+  width: 24px;
+  height: 24px;
+}
+.final-jd-frame1000002076 {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.final-jd-text10 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 25.876708984375px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.final-jd-line1 {
+  width: 50px;
+  height: 1px;
+}
+.final-jd-text11 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 25.876708984375px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.final-jd-frame1000002103 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+}
+.final-jd-text12 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.final-jd-wf-button {
+  gap: 8px;
+  display: flex;
+  padding: 16px 12px;
+  overflow: hidden;
+  align-items: flex-end;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: rgba(110, 133, 242, 1);
+}
+.final-jd-text13 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.final-jd-frame1000002095 {
+  top: 186px;
+  left: 56px;
+  width: 1808px;
+  height: 813px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(241, 241, 241, 1);
+}
+.final-jd-frame1000002010 {
+  gap: 598px;
+  top: 0px;
+  left: 1px;
+  width: 1807px;
+  height: 104px;
+  display: flex;
+  padding: 24px 32px 24px 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(171, 171, 171, 1);
+  border-style: solid;
+  border-width: 0 0 2px;
+  justify-content: center;
+}
+.final-jd-text14 {
+  top: 35px;
+  left: 29px;
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: 700;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.final-jd-text15 {
+  top: 131px;
+  left: 16px;
+  color: var(--dl-color-default-d9d9d9);
+  width: 1392px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 170.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}

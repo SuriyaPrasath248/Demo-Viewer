@@ -1,0 +1,132 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-login {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-frame1000002043 {
+  gap: 32.24242401123047px;
+  top: 308.89910888671875px;
+  left: 694px;
+  width: 532px;
+  display: flex;
+  padding: 72.54545593261719px 32.24242401123047px;
+  position: absolute;
+  align-items: center;
+  border-radius: 10.747474670410156px;
+  flex-direction: column;
+  background-color: rgba(241, 241, 241, 1);
+}
+.login-frame1000002098 {
+  width: 139.71717834472656px;
+  height: 184.28665161132812px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-text1 {
+  top: 145.32704162597656px;
+  left: -0.00018742108659353107px;
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: 600;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-frame1000002096 {
+  top: -0.00001726246773614548px;
+  left: 2.6866812705993652px;
+  width: 134px;
+  height: 134.3434295654297px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-ellipse1 {
+  top: 0.000029592803912237287px;
+  left: 0.00014796401956118643px;
+  width: 134px;
+  height: 134px;
+  position: absolute;
+  border-color: rgba(110, 133, 242, 1);
+  border-style: solid;
+  border-width: 2.686868667602539px;
+}
+.login-project-brains-logo-trans1 {
+  top: 32.242408752441406px;
+  left: 22.166824340820312px;
+  width: 97px;
+  height: 77px;
+  position: absolute;
+}
+.login-frame1000002066 {
+  gap: 13.434343338012695px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.login-frame1000001976 {
+  gap: 16.121212005615234px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.login-text2 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: 500;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: 24.32227897644043px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-frame279523 {
+  gap: 10.747474670410156px;
+  height: 60px;
+  display: flex;
+  padding: 0 16.121212005615234px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(102, 102, 102, 1);
+  border-style: solid;
+  border-width: 1.3434343338012695px;
+  border-radius: 10.747474670410156px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-text3 {
+  color: rgba(158, 158, 158, 1);
+  width: 435px;
+  height: auto;
+  font-size: 21.494949340820312px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

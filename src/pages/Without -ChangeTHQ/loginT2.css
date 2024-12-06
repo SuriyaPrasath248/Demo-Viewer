@@ -1,0 +1,136 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-login {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-frame1000002099 {
+  gap: 44.295654296875px;
+  top: 289.3836975097656px;
+  left: 707px;
+  width: 566px;
+  display: flex;
+  padding: 66.4434814453125px 79.97826385498047px;
+  position: absolute;
+  align-items: center;
+  border-radius: 4.921739101409912px;
+  flex-direction: column;
+  background-color: rgba(241, 241, 241, 1);
+}
+.login-frame1000002098 {
+  width: 127.96521759033203px;
+  height: 168.78585815429688px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-text1 {
+  top: 133.10324096679688px;
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25.825096130371094px;
+  font-style: 600;
+  text-align: left;
+  font-family: Aspekta;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-frame1000002096 {
+  top: -0.0000025092874693655176px;
+  left: 2.4607741832733154px;
+  width: 123px;
+  height: 123.0434799194336px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.login-ellipse1 {
+  top: -6.019388933964365e-7px;
+  left: -0.00016337927081622183px;
+  width: 123px;
+  height: 123px;
+  position: absolute;
+  border-color: rgba(110, 133, 242, 1);
+  border-style: solid;
+  border-width: 2.460869550704956px;
+}
+.login-project-brains-logo-trans1 {
+  top: 29.530433654785156px;
+  left: 20.30179214477539px;
+  width: 89px;
+  height: 70px;
+  position: absolute;
+}
+.login-frame1000002097 {
+  gap: 17.22608757019043px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.login-wf-button1 {
+  gap: 9.843478202819824px;
+  width: 406.0434875488281px;
+  display: flex;
+  padding: 19.68695640563965px 14.765216827392578px;
+  overflow: hidden;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 4.921739101409912px;
+  justify-content: center;
+  background-color: rgba(110, 133, 242, 1);
+}
+.login-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 22.147825241088867px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 29.530433654785156px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-wf-button2 {
+  gap: 9.843478202819824px;
+  width: 406.0434875488281px;
+  display: flex;
+  padding: 19.68695640563965px 35.68260955810547px;
+  overflow: hidden;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: rgba(110, 133, 242, 1);
+  border-style: solid;
+  border-width: 2.460869550704956px;
+  border-radius: 4.920000076293945px;
+  justify-content: center;
+}
+.login-text3 {
+  color: rgba(50, 51, 53, 1);
+  height: auto;
+  font-size: 19.68695640563965px;
+  font-style: Semi Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 29.530433654785156px;
+  font-stretch: normal;
+  text-decoration: none;
+}

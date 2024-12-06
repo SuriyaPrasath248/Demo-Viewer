@@ -1,0 +1,204 @@
+.chatScreen {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 166px;
+  }
+  
+  .header {
+    border-bottom: 2px solid #d8d8d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 52px;
+    width: 100%;
+  }
+  
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .backButton {
+    transform: rotate(180deg);
+    border-radius: 4px;
+    background-color: #6e85f2;
+    min-height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .backIcon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .title {
+    color: #323335;
+    font: 500 20px Aspekta, sans-serif;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 75px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .contentContainer {
+    display: flex;
+    gap: 40px 66px;
+    margin-top: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .chatContainer {
+    background-color: #323335;
+    min-width: 240px;
+    width: 669px;
+    padding: 36px 24px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .messageList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .messageContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .avatarCircle {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #7d7d7d;
+    flex-shrink: 0;
+  }
+  
+  .messageContent {
+    font-family: Aspekta, sans-serif;
+    line-height: 26px;
+    flex: 1;
+  }
+  
+  .messageIcon {
+    width: 35px;
+    height: 28px;
+    object-fit: contain;
+  }
+  
+  .inputContainer {
+    margin-top: 36px;
+  }
+  
+  .inputField {
+    background-color: #515358;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  
+  .textInput {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .textInput::placeholder {
+    color: #fff;
+  }
+  
+  .sendIcon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+  }
+  
+  .descriptionContainer {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    min-width: 240px;
+    width: 594px;
+    padding: 30px;
+  }
+  
+  .descriptionContent {
+    font-family: Aspekta, sans-serif;
+    color: #323335;
+  }
+  
+  .jobRole {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .descriptionText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 18px;
+  }
+  
+  .generateButton {
+    background-color: #6e85f2;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    padding: 16px 12px;
+    font: 600 18px/1 Inter, sans-serif;
+    letter-spacing: -0.18px;
+    margin-top: 36px;
+    cursor: pointer;
+  }
+  
+  .visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .chatScreen {
+      padding-bottom: 100px;
+    }
+  
+    .header {
+      padding: 0 20px;
+    }
+  
+    .contentContainer {
+      margin-top: 40px;
+    }
+  
+    .chatContainer,
+    .descriptionContainer {
+      padding: 0 20px;
+      max-width: 100%;
+    }
+  }
